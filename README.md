@@ -10,6 +10,6 @@
 | **Materia**    | Programación Web   |
 
 # HTML
-### 01- HTML básico y formato de contenido
-* Descripción:  
-* [Enlace](https://github.com/Alexia-Gomez/Programaci-n-Web/blob/master/index.html)
+### 01- Página web con elementos básicos
+* __Descripción:__ Crea una página HTML sobre un tema de tu elección, usando capas y enlaces, además de las etiquetas de formato listadas.  
+* [Enlace](/Ejercicios/01_PagWeb_elemento_basicos/index.html)
