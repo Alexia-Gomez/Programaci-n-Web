@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alexia Gomez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="gracias.html" method="get">
+        <fieldset>
+            <legend>Información básica</legend>
+
+            <label for="nombre">Nombre completo</label>
+            <input id="nombre" type="text" name="nombre" placeholder="Ingresa tu nombre" required>
+            <br>
+
+            <label for="correo">Correo electronico</label>
+            <input id="correo" name="email" placeholder="Ingresa tu email" required>
+            <br>
+
+            <label for="Password">Contrasena</label>
+            <input id="password" type="password" name="contrasena" placeholder="Ingresa tu contraseña" required>
+            <br>
+
+            <label for="edad">edad</label>
+            <input id="edad" type="number" name="edad" placeholder="Ingresa tu edad">
+            <br>
+
+            <label for="decripcion">Descripcion</label>
+            <textarea id="descripcion" cols="" rows="" name="descripcion" placeholder="Ingresa tu descripción"></textarea>
+            <br>
+
+            <label for="pais">País</label>
+            <select id="pais" size="3" name="pais">
+                <optgroup label="America">
+                    <option value="mexico">Mexico</option>
+                    <option value="usa">Estados unidos</option>
+                </optgroup>
+                <optgroup label="Europa">
+                    <option value="españa">España</option>
+                <option value="francia">Francia</option>
+                </optgroup>
+                
+            </select>
+            <br>
+
+            <label for="lenguaje">Lenguaje de programacion</label>
+            <input id="lenguaje" list="lenguajes" name="lenguaje">
+            <datalist id="lenguajes">
+                <option value="JavaScript"></option>
+                <option value="Python"></option>
+                <option value="Java"></option>
+                <option value="C++"></option>
+            </datalist>
+
+        </fieldset>
+
+        <button type="submit" >Enviar</button>
+    </form>
+</body>
+</html>
