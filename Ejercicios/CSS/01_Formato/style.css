@@ -1,0 +1,46 @@
+* {
+    font-family: "Caprasimo", sans-serif;
+    text-align: justify;
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: 'Caprasimo', sans-serif;
+    src: url(fonts/Caprasimo-Regular.ttf);
+}
+
+nav {
+    background: palevioletred;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    background: palevioletred;
+}
+
+p {
+    line-height: 1.5;
+}
+
+q {
+    font-size: 17px;
+    font-style: italic;
+}
+
+li {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.barra-nav {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
