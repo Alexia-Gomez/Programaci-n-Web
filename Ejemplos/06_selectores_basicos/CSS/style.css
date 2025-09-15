@@ -1,0 +1,25 @@
+ * {
+     color: white;
+     background: black;
+     font-family: "Montserrat", sans-serif;
+ }
+
+ 
+ p {
+     color: lightseagreen;
+     font-size: 20px;
+ }
+
+ .texto-verde {
+     color: green;
+ }
+
+ .fondo-negro {
+     background: black;
+ }
+
+ #especial {
+     color: orange;
+     text-align: center;
+     font-style: italic;
+ }
