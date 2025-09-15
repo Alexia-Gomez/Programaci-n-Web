@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Caprasimo", sans-serif;
+}
+
+@font-face {
+    font-family: 'Caprasimo', sans-serif;
+    src: url(fonts/Caprasimo-Regular.ttf);
+}
+
+.card{
+    display:block;
+    width: 300px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    margin: 50px;
+    
+
+}
+
+.img{
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+    
+}
+
+.content{
+    padding: 5%;
+    text-align: justify;
+}
+
+.boton{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    background: rgb(146, 211, 243);
+    margin-left: 35%;
+    margin-top: 15px;
+    
+}
