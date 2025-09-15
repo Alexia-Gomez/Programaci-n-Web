@@ -16,5 +16,8 @@
 
 # CSS
 ### 01- Formato de texto, fuentes, fondos y border
-* __Descripción:__ Hacer una página web (puedes usar la que diseñaste en ejercicios pasados con HTML) en donde se apliquen estilos a los elementos, utilizando: selectores básicos (de tipo, de clase y de id), colores, fondos, fuentes, bordes  
+* __Descripción:__ Hacer una página web (puedes usar la que diseñaste en ejercicios pasados con HTML) en donde se apliquen estilos a los elementos, utilizando: selectores básicos (de tipo, de clase y de id), colores, fondos, fuentes, bordes.  
 * [Enlace](/Ejercicios/CSS/01_Formato/index.html)
+### 02- Tarjeta
+* __Descripción:__ Utilizando lo aprendido en clase, haz una tarjeta que contenga una imagen, una descripción de la imagen y un botón. Deberás aplicar estilos utilizando propiedades básicas de CSS. El tema de la tarjeta puede ser el que gustes, incluso alguno de los que elegiste para tus sitios anteriores.
+* [Enlace](/Ejercicios/CSS/02_tarjeta/index.html) 
