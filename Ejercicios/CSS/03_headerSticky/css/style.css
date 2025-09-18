@@ -1,0 +1,72 @@
+@font-face {
+    font-family:'LeagueSpartan';
+    src: url(../fonts/LeagueSpartan-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family:'notoSans';
+    src: url(../fonts/noto-sans/NotoSans-Bold.ttf);
+    font-weight: bold;
+}
+
+header{
+    background: rgb(252, 249, 244);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+body{
+    /*font-family: LeagueSpartan, sans-serif;*/
+    font-family: notoSans, sans-serif;
+    min-height: 200vh;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 80px;
+    margin-left: 50%;
+    border-radius: 40px;
+}
+
+.logo-container{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    padding: 1%;
+    margin: 0;
+
+}
+
+.nav-container{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 45%;
+    padding: 2%;
+}
+
+.nav-icons{
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    width: 35%;
+}
+
+.link{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(31, 17, 15);
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+.icon{
+    margin-left: 3%;
+}
+
+.hero-img{
+    width: 100%;
+}
