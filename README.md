@@ -21,3 +21,6 @@
 ### 02- Tarjeta
 * __Descripción:__ Utilizando lo aprendido en clase, haz una tarjeta que contenga una imagen, una descripción de la imagen y un botón. Deberás aplicar estilos utilizando propiedades básicas de CSS. El tema de la tarjeta puede ser el que gustes, incluso alguno de los que elegiste para tus sitios anteriores.
 * [Enlace](/Ejercicios/CSS/02_tarjeta/index.html) 
+### 03- Header sticky
+* __Descripción:__ Desarrolla el header del sitio que diseñaste en la Unidad 1. Deberá funcionar con el position sticky. Respetar el contraste de colores y utilizar la tipografía elegida.
+* [Enlace](/Ejercicios/CSS/03_headerSticky/index.html)
