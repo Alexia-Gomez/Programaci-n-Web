@@ -12,7 +12,7 @@
 # HTML
 ### 01- Página web con elementos básicos
 * __Descripción:__ Crea una página HTML sobre un tema de tu elección, usando capas y enlaces, además de las etiquetas de formato listadas.  
-* [Enlace](/Ejercicios/01_PagWeb_elemento_basicos/index.html)
+* [Enlace](/Ejercicios/HTML/01_PagWeb_elemento_basicos/index.html)
 
 # CSS
 ### 01- Formato de texto, fuentes, fondos y border
@@ -24,3 +24,6 @@
 ### 03- Header sticky
 * __Descripción:__ Desarrolla el header del sitio que diseñaste en la Unidad 1. Deberá funcionar con el position sticky. Respetar el contraste de colores y utilizar la tipografía elegida.
 * [Enlace](/Ejercicios/CSS/03_headerSticky/index.html)
+### 04- Formulario con estilos, pseudoelementos y pseudoclases
+* __Descripción:__ Utilizar el formulario hecho en la unidad de HTML y dale estilos que combinen con la identidad del sitio que diseñaste.
+* [Enlace](/Ejercicios/CSS/04_formulario/index.html)
