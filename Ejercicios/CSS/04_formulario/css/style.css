@@ -1,0 +1,87 @@
+@font-face {
+    font-family:'LeagueSpartan';
+    src: url(../fonts/LeagueSpartan-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family:'notoSans';
+    src: url(../fonts/noto-sans/NotoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family:'notoSansSemibold';
+    src: url(../fonts/noto-sans/NotoSans-SemiBold.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: notoSans, sans-serif;
+}
+
+form {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+    padding:  35px;
+    margin: 5% auto;
+    max-width: 350px;
+    background: rgb(252, 249, 244);
+}
+
+input{
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #616161;
+    border-radius: 5px;
+    font-family: notoSans, sans-serif;
+}
+
+label{
+    display: block;
+    margin-bottom: 3px;
+    color: rgb(31, 17, 15);
+    font-size: 15px;
+}
+
+h1{
+    font-family: LeagueSpartan, sans-serif;
+    text-align: center;
+    color: rgb(31, 17, 15);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    border: 1px solid rgb(187 , 116, 11);
+    cursor: pointer;
+    background: rgb(249, 184, 88);
+    font-family: notoSansSemibold, sans-serif;
+    font-size: 15px;
+}
+
+h1::after{
+    content: "🐾";
+}
+
+input:focus {
+    outline: 1px solid rgb(31, 17, 15);
+}
+
+button:hover {
+    background: rgb(207, 148, 61);
+    color: white;
+    transition: all 0.4s;
+}
+
+::selection {
+    background:rgb(207, 148, 61) ;
+    color:white ;
+}
