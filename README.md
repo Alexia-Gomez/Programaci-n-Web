@@ -27,3 +27,9 @@
 ### 04- Formulario con estilos, pseudoelementos y pseudoclases
 * __Descripción:__ Utilizar el formulario hecho en la unidad de HTML y dale estilos que combinen con la identidad del sitio que diseñaste.
 * [Enlace](/Ejercicios/CSS/04_formulario/index.html)
+### 05- Sitio con tarjetas (Flex)
+* __Descripción:__ Utilizando flexbox y el sitio previamente diseñado: Añade varias filas y columnas con las tarjetas hechas en el Ejercicio #2 - Tarjeta, añade un menú desplegable a alguna de las opciones de tu header.
+* [Enlace](Ejercicios/CSS/05_sitio_tarjetas/index.html)
+### 06- Variables y funciones
+* __Descripción:__ A partir del Ejercicio 5, modifica tu CSS y aplica variables y funciones. Puedes usarlas para los colores, márgenes, padding, fondos, etc. Utiliza también algunas funciones en los apartados que se puedan aplicar.
+* [Enlace](Ejercicios/CSS/05_sitio_tarjetas/index.html)
