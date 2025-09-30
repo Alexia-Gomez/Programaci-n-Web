@@ -30,6 +30,12 @@ body{
     padding: 0;
 }
 
+h2{
+    font-family: LeagueSpartan, sans-serif;
+    grid-column: 1/-1;
+    text-align: center;
+}
+
 li {
     padding: 30px;
 }
@@ -47,26 +53,28 @@ a{
 .logo-container{
     height: 120px;
     display: flex;
-    padding-left: 3%;
     align-items: center;
+    padding-right: 5%;
 }
 
 .nav-container{
     display: flex;
     justify-content: center;
-    padding-right: 5px;
+    padding-right: 3px;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
+    
 }
 
 .link{
     font-size: 25px;
     font-weight: bold;
-    margin-right: 5%;
+    margin-right: 3%;
 }
 
 .icon{
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
 .hero-img{
@@ -75,7 +83,7 @@ a{
 
 .dropdown {
     position: relative;
-    margin-right: 7%;
+    margin-right: 3%;
 }
 
 .dropdown ul {
@@ -101,10 +109,11 @@ a{
 }
 
 .container-color{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     background-color:var(--color-principal);
+    gap: 20px;
+    padding: 20px;
 }
 
 .card{
@@ -123,12 +132,8 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    max-width: 15%;
-    min-width: 200px;
     background: white;
-    padding: 1%;
-    margin: 2%;
+    padding: 1rem;
     border-radius:var(--border-radius);
 }
 
