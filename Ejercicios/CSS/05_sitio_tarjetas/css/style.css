@@ -16,14 +16,6 @@
     --border-radius: 15px;
 }
 
-header{
-    background:var(--color-principal);
-    position: sticky;
-    display: flex;
-    justify-content: space-between ;
-    top: 0;
-}
-
 body{
     font-family: notoSans, sans-serif;
     margin: 0;
@@ -48,23 +40,49 @@ a{
 .logo{
     width: 100px;
     border-radius: 40px;
+    padding-left: 40px;
 }
 
-.logo-container{
-    height: 120px;
-    display: flex;
+.header-container{
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr;
     align-items: center;
-    padding-right: 5%;
+    gap: 10px;
+}
+
+.menu-btn{
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
 }
 
 .nav-container{
     display: flex;
     justify-content: center;
-    padding-right: 3px;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-    
+    gap: 30px;
+    padding: 20px 20px;
+}
+
+.submenu-store{
+    display: none;
+    position: absolute;
+    background: white;
+    list-style: none;
+    padding: 10px;
+}
+
+.dropdown:hover .submenu-store{
+    display: block;
 }
 
 .link{
@@ -100,6 +118,62 @@ a{
 .dropdown:hover ul {
     display: block;
     background: white;
+}
+
+@media (max-width: 768px){
+    .header-container{
+        grid-template-columns: .2fr auto;
+        grid-template-areas:
+            "menu icons";
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .icons{
+        grid-area: icons;
+        gap: 15%;
+        padding-top: 10px;
+    }
+
+    .menu-btn{
+        display: block;
+        grid-area: menu;
+        justify-self: center;
+        z-index: 2;
+    }
+
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 230px;
+        z-index: 1;
+        background: var(--color-principal);
+        padding-top: 45px;
+        transform: translateX(-100%);
+    }
+
+    .nav-container a{
+        color: var(--txt-cafe);
+        font-size: 20px;
+    }
+
+    .submenu-store a{
+        font-size: 15px;
+    }
+
+    .submenu-store li{
+        padding: 20px;
+    }
+
+    .menu-toggle:checked~.header-container .nav-container{
+        transform: translateX(0);
+    }
 }
 
 .container{
