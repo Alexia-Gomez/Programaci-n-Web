@@ -33,3 +33,6 @@
 ### 06- Variables y funciones
 * __Descripción:__ A partir del Ejercicio 5, modifica tu CSS y aplica variables y funciones. Puedes usarlas para los colores, márgenes, padding, fondos, etc. Utiliza también algunas funciones en los apartados que se puedan aplicar.
 * [Enlace](Ejercicios/CSS/05_sitio_tarjetas/index.html)
+### Examen - Sitio web
+* __Descripción:__ De acuerdo al sitio que diseñaste y del cual ya debes tener una página desarrollada (por los ejercicios anteriores), haz una segunda página que esté ligada a la primera (por un botón, enlace, menú, etc) y desarróllala utilizando alguno de los dos frameworks vistos en clase (bootstrap o tailwindcss).
+* [Enlace](Ejercicios/CSS/Examen/public/index.html)
