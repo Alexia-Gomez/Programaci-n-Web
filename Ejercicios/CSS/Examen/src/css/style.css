@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@theme {
+  --color-principal: rgb(252, 249, 244);
+  --txt-cafe: rgb(31, 17, 15);
+
+  --font-LeagueSpartan: "LeagueSpartan", sans-serif;
+  --font-notoSans: "NotoSans", sans-serif;
+}
+
+@font-face {
+  font-family: "LeagueSpartan";
+  src: url("../fonts/LeagueSpartan-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "NotoSans";
+  src: url("../fonts/noto-sans/NotoSans-Bold.ttf");
+  font-weight: bold;
+}

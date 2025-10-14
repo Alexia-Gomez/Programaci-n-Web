@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Premios</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="min-h-screen flex flex-col bg-white">
+
+  <header class=" bg-[var(--color-principal)] text-[var(--txt-cafe)] font-LeagueSpartan">
+
+    <div class="navbar max-w-7xl mx-auto justify-between">
+
+      <div class="flex-none lg:hidden">
+        <button class="btn btn-square btn-ghost"
+          onclick="document.getElementById('menu-toggle').classList.toggle('hidden')">☰</button>
+      </div>
+
+
+      <div class="hidden lg:flex items-center gap-3 ps-5">
+        <img src="img/logoPet.jpg" alt="Logo" class="h-16 rounded-full" />
+      </div>
+
+
+      <nav class="hidden lg:flex gap-20 text-lg font-bold">
+        <a href="#" class="hover:underline">HOME</a>
+        <a href="#" class="hover:underline">BLOG</a>
+
+
+        <div class="dropdown dropdown-hover">
+          <div tabindex="0" role="button" class="hover:underline">TIENDA</div>
+          <ul class="menu dropdown-content bg-white rounded-box shadow mt-4 w-48 z-10">
+            <li><a>Accesorios</a></li>
+            <li><a>Alimento</a></li>
+            <li><a>Jabones</a></li>
+            <li><a>Juguetes</a></li>
+          </ul>
+        </div>
+
+        <a href="#" class="hover:underline">CONTACTO</a>
+      </nav>
+
+
+      <nav class="flex gap-20 pe-4">
+        <a href="#"><img alt="icon" src="img/Search.png" class="w-6"></a>
+        <a href="#"><img alt="icon" src="img/Heart.png" class="w-6"></a>
+        <a href="#"><img alt="icon" src="img/Shopping cart.png" class="w-6"></a>
+        <a href="#"><img alt="icon" src="img/User.png" class="w-6"></a>
+      </nav>
+    </div>
+
+
+    <nav id="menu-toggle" class="hidden lg:hidden flex flex-col bg-white text-[var(--txt-cafe)] p-4 border-t">
+      <a href="#" class="py-2">HOME</a>
+      <a href="#" class="py-2">BLOG</a>
+
+      <details class="py-2">
+        <summary class="cursor-pointer">TIENDA</summary>
+        <ul class="ps-4">
+          <li><a>Accesorios</a></li>
+          <li><a>Alimento</a></li>
+          <li><a>Jabones</a></li>
+          <li><a>Juguetes</a></li>
+        </ul>
+      </details>
+
+      <a href="#" class="py-2">CONTACTO</a>
+    </nav>
+  </header>
+
+  <div class="min-h-50 font-LeagueSpartan  bg-white" style="background-image: url('../public/img/Hero.png');">
+    <div class="w-full flex-row justify-center p-10  hero-overlay">
+      <h1 class="pl-1/2 text-5xl font-bold ">Premios para gatos</h1>
+      <p class="pt-5">Las golosinas para gatos tienen una gran variedad de formas, sabores, consistencias y, por
+        supuesto, composiciones. Seguro que encuentras la que mejor se adapta a tu pequeño amigo. En primer lugar,
+        puedes hacer tu selección en función de la edad de tu mascota. Encontrará golosinas para gatitos, para gatos
+        adultos, para gatos mayores y otras adecuadas para todas las edades. Los snacks para gatitos, por ejemplo,
+        tienen un formato adaptado a la mandíbula y los dientes de un gato joven y suelen estar hechas con leche.</p>
+      <h3></h3>
+    </div>
+  </div>
+
+
+  <div tabindex="0" class="collapse collapse-arrow bg-[var(--color-principal)] text-[var(--txt-cafe)]">
+    <div class="collapse-title font-bold">Dentales</div>
+    <div class="collapse-content text-sm bg-white">
+      Algunas golosinas son especialmente adecuadas para el cuidado de los dientes. La forma en que están formulados y
+      construidos ayuda a combatir el sarro. El sarro puede acumularse, especialmente si tu felino come mucha comida
+      para gatos. Además, algunas de estas golosinas contienen ingredientes como el té verde para mejorar el aliento.
+
+      <div class="bg-white carousel text-[var(--txt-cafe)] carousel-center rounded-box w-full space-x-4 p-4">
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div tabindex="0" class="collapse collapse-arrow bg-[var(--color-principal)] text-[var(--txt-cafe)]">
+    <div class="collapse-title font-bold">Liofilizados</div>
+    <div class="collapse-content text-sm bg-white">
+      Algunas golosinas son especialmente adecuadas para el cuidado de los dientes. La forma en que están formulados y
+      construidos ayuda a combatir el sarro. El sarro puede acumularse, especialmente si tu felino come mucha comida
+      para gatos. Además, algunas de estas golosinas contienen ingredientes como el té verde para mejorar el aliento.
+
+      <div class="bg-white carousel text-[var(--txt-cafe)] carousel-center rounded-box w-full space-x-4 p-4">
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div tabindex="0" class="collapse collapse-arrow bg-[var(--color-principal)] text-[var(--txt-cafe)]">
+    <div class="collapse-title font-bold">Líquidos</div>
+    <div class="collapse-content text-sm bg-white">
+      Las golosinas de masa tienen una textura especial que atraerá a los animales a los que no les gustan las golosinas
+      crujientes. Son más ricas en agua que las golosinas secas. También tienen un uso interesante: se utilizan para
+      recubrir un medicamento para que sea más fácil de tomar.
+      También hay golosinas de gelatina o líquidas que pueden añadirse al cuenco para mascotas quisquillosas, por
+      ejemplo.
+
+      <div class="bg-white carousel text-[var(--txt-cafe)] carousel-center rounded-box w-full space-x-4 p-4">
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div tabindex="0" class="collapse collapse-arrow bg-[var(--color-principal)] text-[var(--txt-cafe)]">
+    <div class="collapse-title font-bold">Snacks</div>
+    <div class="collapse-content text-sm bg-white">
+      Algunas golosinas son especialmente adecuadas para el cuidado de los dientes. La forma en que están formulados y
+      construidos ayuda a combatir el sarro. El sarro puede acumularse, especialmente si tu felino come mucha comida
+      para gatos. Además, algunas de estas golosinas contienen ingredientes como el té verde para mejorar el aliento.
+
+      <div class="bg-white carousel text-[var(--txt-cafe)] carousel-center rounded-box w-full space-x-4 p-4">
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="min-h-50 font-LeagueSpartan text-[var(--txt-cafe)]">
+    <div class="w-full flex-row justify-center p-10">
+      <h3 class="pl-1/2 text-3xl font-bold text-center ">Más populares</h3>
+      <p class="pt-5"></p>
+      <div class="bg-white carousel text-[var(--txt-cafe)] carousel-center rounded-box w-full space-x-4 p-4">
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>
+            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[var(--color-principal)] w-96 carousel-item">
+          <figure class="px-10 pt-10">
+            <img src="img/alimento.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Producto</h2>    
+            <p>Descripción del producto</p>
+            <div class="card-actions">
+              <button class="btn text-[var(--txt-cafe)]" style="background-color:rgb(249, 184, 88)">Ver</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
