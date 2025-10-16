@@ -36,3 +36,8 @@
 ### Examen - Sitio web
 * __Descripción:__ De acuerdo al sitio que diseñaste y del cual ya debes tener una página desarrollada (por los ejercicios anteriores), haz una segunda página que esté ligada a la primera (por un botón, enlace, menú, etc) y desarróllala utilizando alguno de los dos frameworks vistos en clase (bootstrap o tailwindcss).
 * [Enlace](Ejercicios/CSS/Examen/public/index.html)
+
+# JavaScript
+### 01- Calculadora
+* __Descripción:__ Crea una calculadora simple que pueda realizar operaciones básicas como suma, resta, multiplicación y división. El usuario ingresará dos números y seleccionará la operación que desea realizar.
+* [Enlace](Ejercicios/JS/01_Calculadora/index.html)
