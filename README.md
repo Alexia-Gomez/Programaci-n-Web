@@ -41,3 +41,6 @@
 ### 01- Calculadora
 * __Descripción:__ Crea una calculadora simple que pueda realizar operaciones básicas como suma, resta, multiplicación y división. El usuario ingresará dos números y seleccionará la operación que desea realizar.
 * [Enlace](Ejercicios/JS/01_Calculadora/index.html)
+### 02- Manipulación de estilos
+* __Descripción:__ Haz una página como la que se muestra abajo (igual o similar, pueden modificar el estilo), cada que se haga click en uno de los botones, cambiará el fondo de la página y de su contenedor. Utiliza JavaScript y sus selectores.
+* [Enlace](Ejercicios/JS/02_Manipulacion_estilos/index.html)
