@@ -44,3 +44,6 @@
 ### 02- Manipulación de estilos
 * __Descripción:__ Haz una página como la que se muestra abajo (igual o similar, pueden modificar el estilo), cada que se haga click en uno de los botones, cambiará el fondo de la página y de su contenedor. Utiliza JavaScript y sus selectores.
 * [Enlace](Ejercicios/JS/02_Manipulacion_estilos/index.html)
+### 03- Calculadora visual
+* __Descripción:__ Hacer una calculadora que muestre el historial de sus cálculos y un error en caso de que se coloque una operación que no se pueda hacer. Deberán usar eventos de teclado también, es decir, se puede seleccionar el número o la operación al hacer click sobre el botón o al presionar las teclas correspondientes a números u operaciones.
+* [Enlace](Ejercicios/JS/03_Calculadora_visual/index.html)
