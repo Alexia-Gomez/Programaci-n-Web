@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    padding: 10px;
+}
+
+body{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    box-shadow: 1px 1px 5px 1px rgba(40, 40, 40, 0.625);
+    width: 60% ;
+    padding: 30px;
+    justify-self: center;
+}
+
+li{
+    display: flex;
+    border-bottom: 1px dashed rgb(98, 98, 98);
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: start;
+    justify-content: space-between;
+}
+
+input{
+    height: 25px;
+    width: 50% ;
+    margin-top: 20px;
+}
+
+.delete{
+    color: white;
+    background-color: rgb(255, 43, 43);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    
+}
+
+.add-btn{
+    background-color: rgb(114, 196, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
