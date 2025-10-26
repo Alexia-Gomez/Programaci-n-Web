@@ -47,3 +47,6 @@
 ### 03- Calculadora visual
 * __Descripción:__ Hacer una calculadora que muestre el historial de sus cálculos y un error en caso de que se coloque una operación que no se pueda hacer. Deberán usar eventos de teclado también, es decir, se puede seleccionar el número o la operación al hacer click sobre el botón o al presionar las teclas correspondientes a números u operaciones.
 * [Enlace](Ejercicios/JS/03_Calculadora_visual/index.html)
+### 04- Lista de tareas
+* __Descripción:__ Haz una lista de tareas que permita agregar tareas, eliminarlas y marcarlas como terminadas. Se debe quedar guardado en caso de recargar la página (usar localStorage).
+* [Enlace](Ejercicios/JS/04_Lista_tareas/index.html)
