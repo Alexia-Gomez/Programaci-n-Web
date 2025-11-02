@@ -42,7 +42,7 @@ input{
     
 }
 
-.add-btn{
+#add-btn{
     background-color: rgb(114, 196, 255);
     border: none;
     border-radius: 5px;
