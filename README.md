@@ -50,3 +50,6 @@
 ### 04- Lista de tareas
 * __Descripción:__ Haz una lista de tareas que permita agregar tareas, eliminarlas y marcarlas como terminadas. Se debe quedar guardado en caso de recargar la página (usar localStorage).
 * [Enlace](Ejercicios/JS/04_Lista_tareas/index.html)
+### 05- Tarjeta con datos base de un gato
+* __Descripción:__ Usando lo que se vio en clase, añade los números de página en la paginación de la lista de gatos. Añade una opción que permita modificar cuántos gatos se muestran. Por defecto estará en 5. Además, haz una página que muestre los detalles de un gato al darle clic al botón de Ver detalles en la lista principal, debe estar conectado a The Cat API.
+* [Enlace](Ejercicios/JS/05_APi/index.html)
